@@ -3,58 +3,54 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Happy Birthday</title>
+	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body style="background-color: #fde3e4;">
-	<div class="login-box">
+<body>
+	<header>
+		<div class="login-box">
 		 <form>
 	<a href="https://t.me/darksonggg">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
-      Напиши мне
+      Поздравить
     </a>
      </form>
 	</div>
-	<div class="one_pic" style="position: absolute;transform: rotate(-70deg);top: 400px;left: 100px;">
-		<img class="one_img" src="Рисунок2.png" alt="" height="300px" width="300px">
-	</div>
-	<div class="two_pic" style="position: absolute;transform: rotate(70deg);top: 400px;left: 70%;">
-		<img class="one_img" src="Рисунок3.png" alt="" height="300px" width="300px">
-	</div>
-	<div class="three_pic" style="position: absolute;transform: rotate(30deg);top: 140px;left: 860px;">
-		<img class="three_img" src="Рисунок4.png" alt="" height="300px" width="320px">
-	</div>
-	<div class="four_pic" style="position: absolute;top: 20px;left: 550px;">
-		<img class="four_img" src="Рисунок7.png" alt="" height="300px" width="330px">
-	</div>
-	<div class="five_pic" style="position: absolute;transform: rotate(-30deg);top: 140px;left: 210px;">
-		<img  class="five_img" src="Рисунок6.png" alt="" height="300px" width="350px">
-	</div>
-	<script type="module">
-		// Import the functions you need from the SDKs you need
-		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js";
-		// TODO: Add SDKs for Firebase products that you want to use
-		// https://firebase.google.com/docs/web/setup#available-libraries
-	  
-		// Your web app's Firebase configuration
-		const firebaseConfig = {
-		  apiKey: "AIzaSyBKo755yeYMvN9_1LihsMTg5UXrXS8rVk0",
-		  authDomain: "alenkahb-8b257.firebaseapp.com",
-		  projectId: "alenkahb-8b257",
-		  storageBucket: "alenkahb-8b257.appspot.com",
-		  messagingSenderId: "246300522308",
-		  appId: "1:246300522308:web:8f43ccd55b756e00d10911"
-		};
-	  
-		// Initialize Firebase
-		const app = initializeApp(firebaseConfig);
-	  </script>
-	  <div class="happy"> 
-	  	<p>Поздравьте мою любимую Аленку с днём рождения!</p>
-	  </div>
-	  
+		<div class="happy_txt">
+			<p>Поздравьте мою любимую Алёнку<br>
+			 С днём рождения!!!</p>
+		</div>
+	</header>
+	<section>
+		<div class="one_pic"  >
+			<img class="one_cvet" src="cvet.jpg" alt="" width="200px" height="300px" data-aos="fade-right">
+			<p>Stay always kind, smiling, creative.<br>
+I'm so glad that I have you.<br>
+All these years you are the closest person to me.<br>
+i love you so much 
+		</div>
+	</section>
+	<section class="two" >
+		<div class="two_pick" >
+			<img class="two_cvet" src="pict.jpg" alt="" width="250px" height="230px" data-aos="fade-left">
+			<p>seize the moment</p>
+		</div>
+		<div class="vl"></div>
+		<div class="line"></div>
+	</section>
+	<section class="three">
+		<div class="three_pick">
+			<img class="three_cvet" src="aur.jpg" alt="" width="250px" height="250px">
+			<p>be happy</p>
+		</div>
+	</section>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
 </body>
 </html>
