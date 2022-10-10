@@ -1,6 +1,7 @@
 body{
 	margin: 0 auto;
 	padding: 0;
+	background-color:#d1d1d1ab ;
 }
 header{
 	background-image: url("img_header.jpg");
@@ -215,7 +216,7 @@ header{
    }
    .three_pick{
    	padding: 30px;
-   	height: 500px;
+   	height: 360px;
    }
    .three_pick p{
    	height: 300px;
