@@ -233,14 +233,6 @@ header{
    	height: 235px;
    	display: flex;
    }
-   .vl3 {
-		z-index: -1;
-		top: -14%;
-		left: 50%;
-		position: relative;
-	    border-left: 1px solid #000000;
-	    height: 287px;
-	}
 	.four_text{
 		width: 150px;
 		color: #00000099;
@@ -248,13 +240,12 @@ header{
 	.line2 {
 		z-index: 0;
     border-bottom: 1px solid #0000006e; 
-    width: 49%;
+    width: 60%;
     position: absolute;
-    left: 51%;
+    left: 40%;
    }
    .five_cvet{
-   	padding-left: 40px;
+   	padding-left: 25px;
    	padding-top: 20px;
-
    }
 }
